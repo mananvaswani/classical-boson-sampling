@@ -16,13 +16,13 @@ Usage:
 
 2. Run the code
     -The syntax to run the code from the command line is as follows:
-    './a.out <input size> <number of samples> <optional flags>'
+    `./a.out <input size> <number of samples> <optional flags>`
     -Available flags are (must be used in correct order):
-        - '-parallel <number of threads to use>'
-        - '-saveData <filename>' : saves timing data to a .csv file
+        - `-parallel <number of threads to use>`
+        - `-saveData <filename>` : saves timing data to a .csv file
 
     -Examples are:
-        './a.out 25 1'
-        './a.out 30 2 -parallel 4'
-        './a.out 20 10 -saveData test'
-        './a.out 27 5 -parallel 3 -saveData test'
+        `./a.out 25 1`
+        `./a.out 30 2 -parallel 4`
+        `./a.out 20 10 -saveData test`
+        `./a.out 27 5 -parallel 3 -saveData test`
